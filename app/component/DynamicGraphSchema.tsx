@@ -30,7 +30,7 @@ export default function DynamicGraphSchema() {
               "name": "DriverOnHire",
               "url": canonicalUrl,
               "logo": "https://www.driveronhire.com/logo.svg",
-              "description": metaDescription,
+              "description": metaDescription || "DriverOnHire provides professional and background-verified drivers for personal, corporate, and outstation travel.",
               "foundingDate": "2014",
               "address": [
                 {
@@ -80,7 +80,7 @@ export default function DynamicGraphSchema() {
               "name": "DriverOnHire",
               "image": "https://www.driveronhire.com/logo.svg",
               "url": canonicalUrl,
-              "description": metaDescription,
+              "description": metaDescription || "DriverOnHire provides professional and background-verified drivers for personal, corporate, and outstation travel.",
               "telephone": "02243439090",
               "address": [
                 {

@@ -1,5 +1,4 @@
 "use client";
-import Script from "next/script";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -488,10 +487,9 @@ export default function AutoBlogSchema() {
   }
 
   return (
-    <Script
+    <script
       id="auto-blog-schema"
       type="application/ld+json"
-      strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(schemaData),
       }}

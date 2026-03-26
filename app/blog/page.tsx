@@ -474,8 +474,8 @@ export default async function BlogPage() {
   return (
     <>
       {/* Client-side script to update canonical URL */}
-      <Script id="update-canonical" strategy="afterInteractive">
-        {`
+      <Script id="update-canonical" strategy="afterInteractive" dangerouslySetInnerHTML={{
+        __html: `
           (function() {
             function updateCanonical() {
               const urlParams = new URLSearchParams(window.location.search);
@@ -533,8 +533,8 @@ export default async function BlogPage() {
             // Listen for custom event from pagination component
             window.addEventListener('urlchange', updateCanonical);
           })();
-        `}
-      </Script>
+        `
+      }} />
 
       {/* Hero Section */}
       <div className="blog-main container text-center bg-white">
