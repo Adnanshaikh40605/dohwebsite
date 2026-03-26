@@ -1,0 +1,741 @@
+import Link from "next/link";
+import FaqComponent from "@/app/component/faqs";
+import FAQSchema from "@/app/component/FAQSchema";
+
+export default function NandedCity() {
+  const faqs = [
+    {
+      question: "How do I know my driver is trustworthy?",
+      answer:
+        "This is our most important promise to you. Every driver undergoes a strict police verification and background check. Your safety and peace of mind are our priority.",
+    },
+    {
+      question: "Can I book a driver at the last minute?",
+      answer:
+        "Yes, of course! Our service is available 24/7. If you have a spontaneous plan, you can book a driver, and we'll find one for you as quickly as possible.",
+    },
+    {
+      question: "What if my plans change and I am delayed?",
+      answer:
+        "We understand that delays can happen. Our drivers will wait for a reasonable period. We always aim to be flexible, but please be aware that very long waiting times might result in extra charges.",
+    },
+    {
+      question: "Can your drivers handle luxury cars or automatic vehicles?",
+      answer:
+        "Yes, absolutely. Our drivers are experienced and professionally trained to handle all kinds of vehicles, including premium luxury cars and all models of automatic cars.",
+    },
+    {
+      question: "How do I cancel a booking if my plans change?",
+      answer:
+        "You can easily cancel your booking directly from our app or website. We just recommend checking our cancellation policy, as charges may apply depending on how close it is to your pickup time.",
+    },
+    {
+      question: "Is there an extra charge for booking a driver late at night?",
+      answer:
+        "No, there isn't. We believe in fair and consistent pricing. The rate you see is the rate you pay, regardless of the time of day or night.",
+    },
+  ];
+
+  return (
+    <div className="custom-section">
+      <FAQSchema faqs={faqs} pageTitle="Nanded City" />
+      <section className="pune_section nanded_city location_inner_section margin-top-bottom">
+        <div className="px-md-5 px-3 banner row p-0 m-0 align-items-md-center justify-content-md-start justify-content-center">
+          <div className="col-md-6 banner-left">
+            <h1 style={{ fontWeight: "500" }}>
+                Need a Professional Driver in Nanded City? Let's Make Life Easier.
+            </h1>
+            <p className="mt-4" style={{ fontWeight: "500", color: "rgba(0,0,0,0.6)" }}>
+                Living in a beautiful township is wonderful, but what about the commute on Sinhagad Road or trips into the city? Let us handle the driving. Book a trusted driver for your office commute, family errands, or weekend travel.
+            </p>
+            <div className="row inner-desc mt-md-4">
+              <div className="col-12 col-md-6 col-lg-5">
+                <Link href="/booking-pune/" className="btn btn-warning custom-w-md-100">
+                  Hire Your Driver
+                </Link>
+              </div>
+              <div className="mt-4 mt-md-0 col-12 col-md-6 col-lg-5">
+                <Link href="https://driveronhire.onelink.me/Uy5P/gejeikwj" target="_blank" className="btn btn-dark custom-w-md-100">
+                  Download Our App
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="service_section layout_padding">
+        <div className="container trustBadges">
+          <div className="row">
+            <div className="badges col-lg-4 col-md-4 col-12 p-4">
+              <div className="police-verified-driver p-3">
+                <p>
+                  <span>5,000+ <br /></span>
+                  Verified Drivers in Pune
+                </p>
+                <img src="/Police-verified-drivers.svg" alt="Police verified driver icon" />
+              </div>
+            </div>
+            <div className="badges col-lg-4 col-md-4 col-12 p-4">
+              <div className="happy-clients p-3">
+                <p>
+                  <span>5 LAC+ <br /></span>
+                  Rides Completed Successfully
+                </p>
+                <img src="/Happy-clients.svg" alt="Happy clients icon" />
+              </div>
+            </div>
+            <div className="badges col-lg-4 col-md-4 col-12 p-4">
+              <div className="permanent-drivers p-3">
+                <p>
+                  <span>1 LAC+ <br /></span>
+                  Permanent Drivers with Happy Clients
+                </p>
+                <img src="/permanent-drivers.svg" alt="Permanent drivers icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-div">
+        <div className="container">
+          <div className="daily-section1 text-center">
+            <h2 className="mb-5 pageHeadStyle">So, Why Choose Driver on Hire in Nanded City?</h2>
+            <div className="daily-desc lightPara">
+              <p>We know that Nanded City is a fantastic, self-contained township with everything you need right at your doorstep. It's a community designed for a great lifestyle. However, the moment you need to head out onto Sinhagad Road or commute to other parts of Pune, things can get challenging with traffic.</p>
+              <p>Your time and comfort are valuable. Whether you're a professional commuting to work, a parent managing school runs, or a family planning an outing, your journey should be stress-free. That's where we come in. Our drivers know Nanded City and its surroundings perfectly, from the best exit points to navigating Sinhagad Road efficiently, ensuring your travel is always a breeze.</p>
+            </div>
+          </div>
+          <div className="daily-section4">
+            <h2 className="mb-5 mt-5 pageHeadStyle text-center">What Kind of Driver Service Can We Help You With Today?</h2>
+            <div className="mumbai-service-desc">
+              <p className="lightPara pb-3 text-center">Life in a well-planned township like Nanded City still comes with varied travel needs. We've made our services flexible to suit your modern lifestyle perfectly.</p>
+              <div className="whatWeServe">
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/hourly-drivers/">
+                      <div className="card--display">
+                        <img src="/hourly-drivers.svg" alt="Icon representing Hourly Drivers" />
+                        <h6 className="text-uppercase mt-4">Hourly Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Hourly Driver</h3>
+                        <p>Need to run a few errands within the township or in nearby areas? You can book a professional driver by the hour. It's the perfect solution for getting things done efficiently without any hassle.
+                        </p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/outstation-drivers/">
+                      <div className="card--display">
+                        <img src="/outstation-drivers.svg" alt="Icon representing Outstation Drivers" />
+                        <h6 className="text-uppercase mt-4">Outstation Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Outstation Driver</h3>
+                        <p>A trip to Sinhagad Fort is just a short drive away! Planning a visit or heading out of the city for the weekend? Let our experienced drivers handle the journey so you can relax and enjoy the ride.</p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/daily-drivers/">
+                      <div className="card--display">
+                        <img src="/daily-drivers.svg" alt="Icon representing Daily Drivers" />
+                        <h6 className="text-uppercase mt-4">Daily Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Daily Driver</h3>
+                        <p>If you commute to the city center or other IT hubs for work, let's make that the most comfortable part of your day. We can provide a reliable daily driver, so you can use that time to prepare for your day or unwind.</p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/temporary-drivers/">
+                      <div className="card--display">
+                        <img src="/temporary-drivers.svg" alt="Icon representing Temporary Drivers" />
+                        <h6 className="text-uppercase mt-4">Temporary Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Temporary Driver</h3>
+                        <p>Expecting guests or need a driver for a specific period? We offer skilled, professional drivers on a temporary basis to fit your short-term needs perfectly.</p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/night-drivers/">
+                      <div className="card--display">
+                        <img src="/night-drivers.svg" alt="Icon representing Night Drivers" />
+                        <h6 className="text-uppercase mt-4">Night Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Night Driver</h3>
+                        <p>Have a late-night social event or need to travel for an early morning flight? Your safety is our utmost priority. Our 24/7 night driver service is always available to get you there safely.</p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+                <div className="card-container">
+                  <div className="service-card">
+                    <Link href="/permanent-drivers/">
+                      <div className="card--display">
+                        <img src="/permanent-drivers.svg" alt="Icon representing Permanent Drivers" />
+                        <h6 className="text-uppercase mt-4">Permanent Drivers</h6>
+                      </div>
+                      <div className="card--hover">
+                        <h3 className="text-uppercase p-2 border-bottom border-secondary h6">Permanent Driver</h3>
+                        <p>For the ultimate convenience that matches your lifestyle, consider a full-time driver. We can help you find a trustworthy professional who understands your family's schedule and needs.</p>
+                      </div>
+                    </Link>
+                    <div className="card--border"></div>
+                  </div>
+                </div>
+              </div>
+              <p className="text-center lightPara pt-5">
+              Whatever your travel plans are, we're here to provide a seamless and professional driving solution for you in Nanded City.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mumbai-section">
+        <h3 className="mb-5 mt-5 pageHeadStyle text-center">Let's Talk About the Benefits of Hiring a Driver Here</h3>
+        <div className="mumbai-desc">
+          <p className="lightPara text-center pb-3">
+            When you book a driver with us, you're not just getting a ride; you're investing in a more convenient and relaxed lifestyle. Here's what you can look forward to:
+          </p>
+          <div className="benefit-card-section container">
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">Master Your Daily Commute</h3>
+                <p>Let us handle the stress of Sinhagad Road traffic. Our drivers know the best times and routes to get you to your destination smoothly, every day.
+                </p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">Seamless Airport & Station Trips</h3>
+                <p>Traveling out of town? We ensure timely and comfortable trips to the airport or railway station, so you can start your journey without any travel worries.</p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">You Can Absolutely Trust Our Drivers</h3>
+                <p>We understand that security is paramount. Every single driver on our platform goes through a rigorous police verification and background check. You are always in safe hands.</p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">Enjoy Your Township Life More</h3>
+                <p>Spend less time thinking about traffic and parking, and more time enjoying the wonderful amenities Nanded City has to offer. We'll take care of the driving.</p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">Ready Whenever You Are</h3>
+                <p>Your schedule is not always fixed, and neither is our service. We are available 24/7, ready to assist with any travel plan, anytime.</p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+            <div className="benefit-card" style={{ "--benefit-card": 4 } as React.CSSProperties}>
+              <div className="child">
+                <h3 className="subHead">Simple, Honest Pricing</h3>
+                <p>We believe in complete transparency. You will always see the full cost of your ride before you book. No hidden fees, no surprises.</p>
+              </div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+              <div className="child"></div>
+            </div>
+          </div>
+          <p className="lightPara text-center pt-5">
+            By choosing Driver On Hire in Nanded City, your daily travelling experiences will be transformed. Reap all these benefits while enhancing your overall quality of life and travel experiences.
+          </p>
+        </div>
+      </section>
+
+      <section className="location_we_cater pune_section_loc layout_padding">
+        <div className="container locWeCater">
+          <h2 className="text-center headStyle mb-3">We Also Serve All Areas Near Nanded City</h2>
+          <p className="lightPara text-center pb-3">Our network covers the entire region around your township. A professional driver is always just a booking away.</p>
+          <div className="mt-5">
+            <div className="row g-5">
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Sinhagad Road</Link></div>
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Dhayari</Link></div>
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Warje</Link></div>
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Vadgaon Budruk</Link></div>
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Narhe</Link></div>
+              <div className="col-6 col-md-2 col-lg-2"><Link href="/booking-pune/" className="custom-anchor"><img src="/location-icon.svg" alt="location icon" /> Anand Nagar</Link></div>
+              <div className="col-12 text-center"><p><b>Note:</b> Wherever you are in Nanded City or nearby areas, we've got you covered! Book now for stress-free travel.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="ourHappyClients">
+        <div className="container">
+          <h5 className="text-center headStyle mb-5">Here's What Our Customers Say</h5>
+          <div className="row flex-row-reverse g-5">
+            <div className="col-12 col-md-6 col-lg-6 text-center">
+              <img src="/reviews.svg" className="w-75" alt="review image" />
+            </div>
+            <div className="col-12 col-md-6 col-lg-6 secondDivReview">
+              <div
+                id="carouselExampleAutoplaying1"
+                className="carousel slide m-3"
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-indicators bottomPlacing mb-0">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="0"
+                    className="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="5"
+                    aria-label="Slide 6"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="6"
+                    aria-label="Slide 7"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying1"
+                    data-bs-slide-to="7"
+                    aria-label="Slide 8"
+                  ></button>
+                </div>
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMQeOZvB76aAbE6Wn-1_JpXnGXSPOLb0BOer1cqgJXv0Dynd=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">
+                            Vishal Shrivastava
+                          </div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "Excellent services. Pilot was very polite, well dressed
+                        and smart. Handled vehicle very responsibly and was
+                        thorough in Mumbai routes. Charges are reasonable too !"
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMRdk5DmSQCpWSsfs9TL0YaZCVT3hcJu99Dz9L2ew0dZAxz3=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Kajal Ghose</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "I got a great Driver in Parag Ganve. Extremely
+                        competent, very polite and cooperative and helpful. I
+                        would recommend him to others. The best driver I have
+                        got from you in Navi Mumbai"
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMSK7KALf960-zxo_9hgZOybYVYPicXp9nuBY3fPn5NSfcH_=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">
+                            Navin Bhattacharya
+                          </div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "I use driver on hire for my father. Whenever he chooses
+                        to visit someone or for his regular needs I get a driver
+                        from here. All the drivers so far have been very polite
+                        and have taken care of my father. There are no
+                        complaints only compliments. Keep up the good work."
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMQM4KbKzZrAYAGx3ViJSUs56zcHQq1-whP28z7zh4Vhairv=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Renuka nair</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "Most of the drivers we hire are good, courteous, drives
+                        well. Quite happy with the services."
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a/AAcHTtcwjWd2hjbmEDz4RpAl1EMZbZWhQhlah-S1Q8WP9IKP=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Shilpa Kalsi</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "The drivers are reliable and well behaved. They are
+                        mostly with a good amount of experience. The charges are
+                        reasonable. Happy with the service."
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMTZa9JnZQpZkfwF37lW_X8snA5jVCnEGih-ZZ-uYUadX81w=w36-h36-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Edwin P Naidu</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "Very good person comes on time very good nature neat
+                        and clean driving is very good if i want to give stars
+                        10 on 10 i will give want like this driver."
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMR9hc9SWtbWkArQzxgqQcVNdPg8toMxTzQiDtSPubBicEE=w108-h108-p-rp-mo-ba2-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Shilpa Taimni</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "I have been availing of Drivers on Hire services for
+                        the past 7 years. It was EXCELLENT. Rehanuma is the
+                        beacon that holds it all together. Fantastic Manager who
+                        gives best service, even today."
+                      </div>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <div className="verified_customer_section">
+                      <div className="image_review">
+                        <div className="customer_image">
+                          <img
+                            src="https://lh3.googleusercontent.com/a-/AD_cMMREuEjbtWg22f2_XeXCiWJ2r5MMZE6lVmAqPxrxXy8efM4=w108-h108-p-rp-mo-br100"
+                            alt="customer image"
+                          />
+                        </div>
+
+                        <div className="customer_name_review_status">
+                          <div className="customer_name">Manasi Joshi Roy</div>
+                          <div className="customer_review">
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                            <i className="bi bi-star-fill"></i>
+                          </div>
+                          <div className="customer_status">
+                            <div className="customer_status_content">
+                              <i className="bi bi-patch-check-fill"></i>{" "}
+                              Verified Customer
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="customer_comment">
+                        "Have been using their services since a very long time.
+                        And we are extremely satisfied with their service &
+                        drivers."
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying1"
+                data-bs-slide="prev"
+              >
+                <span
+                  className="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying1"
+                data-bs-slide="next"
+              >
+                <span
+                  className="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="howToBookDriver my-5">
+        <div className="container">
+          <div className="row justify-content-between">
+            <div className="col-12">
+              <h2 className="mt-4 mb-3 headStyle text-center">Ready to Book? It's as Easy as This:</h2>
+              <p className="text-center pb-3 lightPara">We've made our booking process incredibly simple so you can arrange for a driver in just a few minutes.</p>
+            </div>
+            <div className="col-md-6">
+              <div className="fixed-col">
+                <img src="/Nanded.webp" alt="Nanded City" style={{ overflow: "auto" }} className="img-fluid rounded shadow-sm" />
+              </div>
+            </div>
+            <div className="col-md-6 mt-md-0 mt-3 scrollableDiv">
+              <p><b>How It Works:</b></p>
+              <ol className="book-a-driver-timeline">
+                <li className="timeline-content"><div className="timeline-badge">1</div><b>Visit Our Website or Download the App</b><br />A quick, one-time registration is all it takes to get full access to our services.</li>
+                <li className="timeline-content"><div className="timeline-badge">2</div><b>Tell Us What Service You Need</b><br />Just choose the service that matches your plan—whether it's local, outstation, or permanent.</li>
+                <li className="timeline-content"><div className="timeline-badge">3</div><b>Pinpoint Your Location</b><br />Select Pune, and then choose Nanded City as your area.</li>
+                <li className="timeline-content"><div className="timeline-badge">4</div><b>Share Your Trip Details</b><br />Let us know your pickup and drop-off points, and whether you need a one-way or return trip.</li>
+                <li className="timeline-content"><div className="timeline-badge">5</div><b>Tell Us About Your Car</b><br /><div className="row inner"><div className="col-md-4"><ul><li>Manual</li><li>Hatchback</li><li>SUV</li><li>Sedan Luxury</li></ul></div><div className="col-md-4"><ul><li>Automatic</li><li>Sedan</li><li>Luxury</li><li>SUV Luxury</li></ul></div></div></li>
+                <li className="timeline-content"><div className="timeline-badge">6</div><b>Set the Time and Date</b><br />Tell us exactly when you need the driver and for how long you'll need them.</li>
+                <li className="timeline-content"><div className="timeline-badge">7</div><b>Confirm Your Booking</b><br />Just give all the details a final look, press 'confirm', and we'll assign a professional driver to you right away!</li>
+              </ol>
+              <p><b>Ready to enjoy a more convenient way to travel?</b></p>
+              <Link href="/booking-pune/" className="btn btn-warning">Book Your Driver Now</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="faq-section layout_padding">
+        <div className="container">
+          <h2>A Few Common Questions You Might Have</h2>
+          <FaqComponent faqs={faqs} />
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export function generateMetadata() {
+  return {
+    title: "Hire a Driver in Nanded City - 24/7 Professional Drivers",
+    description:
+      "Need a reliable driver in Nanded City? Our verified professionals are available for your daily commute, local errands, and outstation trips. Book a safe ride today.",
+    alternates: {
+      canonical: "https://www.driveronhire.com/drivers-in-pune/nanded-city/",
+    },
+  };
+} 

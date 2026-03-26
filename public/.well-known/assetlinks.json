@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.obeyjobs.customer.driver.app.driver_customer_app",
+      "sha256_cert_fingerprints": [
+        "C3:DA:03:3F:B7:C1:4A:CD:73:50:BB:4B:8A:62:2A:CE:0A:0B:00:4A:9C:AF:57:D5:92:C2:1B:23:DD:06:58:2F",
+        "4B:90:55:3F:E9:4D:C8:9D:37:1E:DF:BD:F5:EF:81:B3:20:48:C7:BC:2A:EC:27:3D:09:5C:DA:B3:94:4B:36:EB"
+      ]
+    }
+  }
+]

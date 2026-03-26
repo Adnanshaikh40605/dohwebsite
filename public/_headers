@@ -1,0 +1,78 @@
+# Headers for SVG icon files - Add noindex, nofollow to prevent soft 404 errors
+/outstation-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/temporary-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/permanent-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/about-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/blog-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/temporary-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/hourly-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/outstation-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/Happy-clients.svg
+  X-Robots-Tag: noindex, nofollow
+
+/location-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/driver-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/daily-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/night-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/daily-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/city-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/night-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/Police-verified-drivers.svg
+  X-Robots-Tag: noindex, nofollow
+
+/permanent-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/hourly-drivers-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/rates-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/contact-us-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/all-services-icon.svg
+  X-Robots-Tag: noindex, nofollow
+
+/playstore-min.svg
+  X-Robots-Tag: noindex, nofollow
+
+/appstore-min.svg
+  X-Robots-Tag: noindex, nofollow
+
+/footer-logo.svg
+  X-Robots-Tag: noindex, nofollow
+
+# Important SVG files that should remain crawlable (no headers added)
+# /logo.svg - remains crawlable

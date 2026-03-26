@@ -1,0 +1,54 @@
+User-agent: *
+Disallow: /outstation-booking/
+Disallow: /booking-details/
+Disallow: /my-profile/
+Disallow: /booking-mumbai/
+Disallow: /booking-pune/
+Disallow: /outstation-drop-booking/
+# Disallow crawling of SVG icon files (except important ones like favicon, logos)
+Disallow: /*.svg
+Allow: /favicon.ico
+Allow: /logo.svg
+Allow: /only-logo.svg
+Allow: /mumbai-city.svg
+Allow: /mumbai-city1.svg
+Allow: /navi-mumbai-city1.svg
+Allow: /Pune1.svg
+Allow: /hero-bg2.svg
+Allow: /footer-bg.svg
+Allow: /contact-us-bg.svg
+Allow: /subscribe-bg.svg
+
+# Explicitly disallow the problematic icon SVG files
+Disallow: /outstation-drivers-icon.svg
+Disallow: /temporary-drivers-icon.svg
+Disallow: /permanent-drivers.svg
+Disallow: /about-icon.svg
+Disallow: /blog-icon.svg
+Disallow: /temporary-drivers.svg
+Disallow: /hourly-drivers.svg
+Disallow: /outstation-drivers.svg
+Disallow: /Happy-clients.svg
+Disallow: /location-icon.svg
+Disallow: /driver-icon.svg
+Disallow: /daily-drivers-icon.svg
+Disallow: /night-drivers-icon.svg
+Disallow: /daily-drivers.svg
+Disallow: /city-icon.svg
+Disallow: /night-drivers.svg
+Disallow: /Police-verified-drivers.svg
+Disallow: /permanent-drivers-icon.svg
+Disallow: /hourly-drivers-icon.svg
+Disallow: /rates-icon.svg
+Disallow: /contact-us-icon.svg
+Disallow: /all-services-icon.svg
+Disallow: /playstore-min.svg
+Disallow: /appstore-min.svg
+Disallow: /footer-logo.svg
+
+# Christmas Theme Assets
+Disallow: /logo.svg
+Disallow: /christmas-hat.png
+Disallow: /christmas-car.webp
+
+Sitemap: https://www.driveronhire.com/sitemap.xml

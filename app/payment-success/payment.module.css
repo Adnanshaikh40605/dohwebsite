@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+.container {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fafb; /* gray-50 */
+  padding: 2rem 0;
+}
+
+/* Background Blobs */
+.blob {
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  filter: blur(48px); /* blur-3xl */
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.blobGreen {
+  background-color: #bbf7d0; /* green-200 */
+}
+
+.blobEmerald {
+  background-color: #a7f3d0; /* emerald-200 */
+}
+
+.blobRed {
+  background-color: #fecaca; /* red-200 */
+}
+
+.blobOrange {
+  background-color: #fed7aa; /* orange-200 */
+}
+
+.blobYellow {
+  background-color: #fef08a; /* yellow-200 */
+}
+
+.blob1 {
+  top: 0;
+  right: 0;
+}
+
+.blob2 {
+  bottom: 0;
+  left: 0;
+}
+
+.blob3 {
+  top: 0;
+  left: 0;
+}
+
+/* Card */
+.card {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 28rem; /* max-w-md */
+  margin: 0 1rem;
+  padding: 2rem;
+  border-radius: 1.5rem; /* rounded-3xl */
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+  text-align: center;
+  border: 1px solid;
+  z-index: 10;
+}
+
+.cardGreen {
+  border-color: #f0fdf4; /* green-50 */
+}
+
+.cardRed {
+  border-color: #fef2f2; /* red-50 */
+}
+
+.cardYellow {
+  border-color: #fefce8; /* yellow-50 */
+}
+
+/* Icon Wrapper */
+.iconWrapper {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  position: relative;
+}
+
+.iconWrapperGreen {
+  background-color: #f0fdf4; /* green-50 */
+}
+
+.iconWrapperRed {
+  background-color: #fef2f2; /* red-50 */
+}
+
+.iconWrapperYellow {
+  background-color: #fefce8; /* yellow-50 */
+}
+
+.iconInner {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  position: relative;
+  z-index: 10;
+}
+
+.iconInnerGreen {
+  background-color: #22c55e; /* green-500 */
+  box-shadow: 0 4px 6px -1px rgba(187, 247, 208, 0.5); /* shadow-green-200 approx */
+}
+
+.iconInnerRed {
+  background-color: #ef4444; /* red-500 */
+  box-shadow: 0 4px 6px -1px rgba(254, 202, 202, 0.5); /* shadow-red-200 approx */
+}
+
+.iconInnerYellow {
+  background-color: #eab308; /* yellow-500 */
+  box-shadow: 0 4px 6px -1px rgba(254, 240, 138, 0.5); /* shadow-yellow-200 approx */
+}
+
+/* Typography */
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827; /* gray-900 */
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #6b7280; /* gray-500 */
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+/* Amount Pill */
+.amountPill {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  background-color: #f0fdf4; /* green-50 */
+  border: 1px solid #bbf7d0; /* green-200 */
+  margin-bottom: 1.5rem;
+}
+
+.amountText {
+  color: #16a34a; /* green-600 */
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* Order ID Box */
+.orderIdBox {
+  background-color: #f9fafb; /* gray-50 */
+  border-radius: 0.75rem; /* rounded-xl */
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.orderIdLabel {
+  font-size: 0.75rem;
+  color: #6b7280; /* gray-500 */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.orderIdValueWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.orderIdText {
+  font-family: monospace;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1f2937; /* gray-800 */
+  margin: 0;
+}
+
+.copyBtn {
+  padding: 0.375rem;
+  color: #9ca3af; /* gray-400 */
+  background: none;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyBtn:hover {
+  background-color: #f3f4f6; /* gray-100 */
+}
+
+.copyBtnGreen:hover {
+  color: #16a34a; /* green-600 */
+  background-color: #f0fdf4;
+}
+
+.copyBtnRed:hover {
+  color: #dc2626; /* red-600 */
+  background-color: #fef2f2;
+}
+
+.copyBtnYellow:hover {
+  color: #ca8a04; /* yellow-600 */
+  background-color: #fefce8;
+}
+
+/* Buttons */
+.backBtn {
+  width: 100%;
+  background-color: #111827; /* gray-900 */
+  color: white;
+  font-weight: 700;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem; /* rounded-xl */
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+}
+
+.backBtn:hover {
+  background-color: #000000;
+  transform: translateY(-2px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.supportLink {
+  text-align: center;
+}
+
+.supportText {
+  color: #6b7280; /* gray-500 */
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.supportAnchor {
+  color: #eab308; /* yellow-500 */
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.supportAnchor:hover {
+  color: #ca8a04; /* yellow-600 */
+}
+
+/* Animations */
+.spin {
+  animation: spin 3s linear infinite;
+}
+
+.spinReverse {
+  animation: spin 3s linear infinite reverse;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Specific elements needing Tailwind replacements */
+.absoluteOne {
+  position: absolute;
+  inset: 0;
+  border: 4px solid;
+  border-radius: 50%;
+}

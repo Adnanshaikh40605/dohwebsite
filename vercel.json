@@ -1,0 +1,317 @@
+{
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://cdn.onesignal.com https://maps.googleapis.com https://connect.facebook.net https://a.quora.com https://static.hotjar.com https://googleads.g.doubleclick.net https://api.onesignal.com https://t.contentsquare.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://onesignal.com; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' data: https://www.google-analytics.com https://analytics.google.com https://maps.googleapis.com https://connect.facebook.net https://www.google.com https://driveronhire.in https://cdn.jsdelivr.net https://cdn.onesignal.com https://api.onesignal.com https://c.ba.contentsquare.net https://k.ba.contentsquare.net https://www.facebook.com https://stats.g.doubleclick.net; frame-src 'self' https://www.googletagmanager.com https://www.google.com https://www.facebook.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' https://www.facebook.com; frame-ancestors 'none'; upgrade-insecure-requests"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          },
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+                {
+                  "key": "Permissions-Policy",
+                  "value": "camera=(), microphone=(), geolocation=(self), interest-cohort=(), unload=(self)"
+                }
+        ]
+      },
+      {
+        "source": "/outstation-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/temporary-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/permanent-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/about-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/blog-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/temporary-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/hourly-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/outstation-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/Happy-clients.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/location-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/driver-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/daily-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/night-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/daily-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/city-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/night-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/Police-verified-drivers.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/permanent-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/hourly-drivers-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/rates-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/contact-us-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/all-services-icon.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/playstore-min.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/footer-logo.svg",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex, nofollow"
+          }
+        ]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/blog/navigating-pune-traffic/",
+        "destination": "/blog/pune-traffic/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/discover-mumbai-nightlife-safely/",
+        "destination": "/blog/nightlife-in-mumbai/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/importance-of-background-checks-for-drivers/",
+        "destination": "/blog/driver-background-check/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/top-destinations-from-mumbai-for-relaxing-driver-driven-experience/",
+        "destination": "/blog/10-best-road-trips-india/",
+        "permanent": true
+      },
+      {
+        "source": "/drivers-services/",
+        "destination": "/driver-services/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/explore-pune-hidden-destinations/",
+        "destination": "/blog/places-to-visit-near-pune/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/essential-traffic-signs/",
+        "destination": "/blog/traffic-signs/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/avoid-sleep-while-driving/",
+        "destination": "/blog/how-to-avoid-sleep-while-driving/",
+        "permanent": true
+      },
+      {
+        "source": "/drivers-in-pune/nimb-road/",
+        "destination": "/drivers-in-pune/nibm-road/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/best-places-to-visit-near-pune/",
+        "destination": "/blog/places-to-visit-near-pune/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/importance-of-background-checks-for-drivers/tips-for-comfortable-journey-with-driver-for-outstation-trips/",
+        "destination": "/blog/driver-background-check/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/professional-outstation-driver/",
+        "destination": "/outstation-drivers/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/outstation-driver-service/",
+        "destination": "/outstation-drivers/",
+        "permanent": true
+      },
+      {
+        "source": "/blog/outstation-trip/",
+        "destination": "/blog/outstation-drivers/",
+        "permanent": true
+      }
+    ]
+  }

@@ -1,0 +1,158 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  padding: 1rem;
+}
+
+.modal {
+  background: white;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 1.5rem;
+  padding: 0;
+  text-align: left;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+}
+
+.modalContent {
+  padding: 0.75rem;
+  overflow-y: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.iconWrapper {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: #fee2e2; /* Red-100 */
+  color: #dc2626;      /* Red-600 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.titleMain {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fff5f5; /* Light red/pink tint */
+  border-radius: 0.75rem;
+  border: 1px solid #fee2e2;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.langLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #b91c1c; /* Dark Red */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.messageTitle {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.15rem;
+}
+
+.messageBody {
+  font-size: 0.85rem;
+  color: #4b5563;
+  line-height: 1.4;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.footer {
+  padding: 0.75rem;
+  border-top: 1px solid #f0f0f0;
+  background: white;
+  z-index: 20;
+}
+
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  background: #dc2626; /* Red Button */
+  color: white;
+  transition: all 0.2s;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Decorative Blobs */
+.blob {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  filter: blur(50px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.blob1 {
+  top: -3rem;
+  right: -3rem;
+  background-color: rgba(255, 215, 0, 0.15);
+}
+
+.blob2 {
+  bottom: -3rem;
+  left: -3rem;
+  background-color: rgba(255, 215, 0, 0.1);
+}
